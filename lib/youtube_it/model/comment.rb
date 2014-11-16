@@ -1,7 +1,12 @@
 class YouTubeIt
   module Model
     class Comment < YouTubeIt::Record
-      attr_reader :content, :published, :title, :updated, :url, :reply_to
+      attr_reader :content
+      attr_reader :published
+      attr_reader :reply_count
+      attr_reader :title
+      attr_reader :updated
+      attr_reader :url
 
       # YouTubeIt::Model::Author:: Information about the YouTube user who owns a piece of video content.
       attr_reader :author
