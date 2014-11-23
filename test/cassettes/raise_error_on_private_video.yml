@@ -8,26 +8,26 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.8.8
+      - Faraday v0.9.0
       Authorization:
-      - Bearer ya29.AHES6ZSZn8ZzSlwse_osmNbzQm8URi6JTb2h9NnrGu4OxC0
+      - Bearer ya29.wAB2qDIm4XBEXSmuDjpHHfixzyY0rtvrI9aanu6_O_DnbcbOzM7yjs9p
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - "*/*"
   response:
     status:
       code: 200
       message: OK
     headers:
       X-Gdata-User-Country:
-      - SE
+      - DE
       Content-Type:
       - application/atom+xml; charset=UTF-8
       Expires:
-      - Mon, 02 Sep 2013 10:14:21 GMT
+      - Sun, 16 Nov 2014 10:41:00 GMT
       Date:
-      - Mon, 02 Sep 2013 10:14:21 GMT
+      - Sun, 16 Nov 2014 10:41:00 GMT
       Cache-Control:
       - private, max-age=0, must-revalidate, no-transform
       Vary:
@@ -35,7 +35,7 @@ http_interactions:
       Gdata-Version:
       - '1.0'
       Last-Modified:
-      - Wed, 07 Aug 2013 16:38:26 GMT
+      - Tue, 21 Oct 2014 17:52:02 GMT
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -47,18 +47,18 @@ http_interactions:
       Server:
       - GSE
       Alternate-Protocol:
-      - 80:quic
+      - 80:quic,p=0.01
     body:
       encoding: UTF-8
-      string: <?xml version='1.0' encoding='UTF-8'?><entry xmlns='http://www.w3.org/2005/Atom'
-        xmlns:media='http://search.yahoo.com/mrss/' xmlns:gd='http://schemas.google.com/g/2005'
-        xmlns:yt='http://gdata.youtube.com/schemas/2007'><id>http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw</id><published>2010-07-06T14:59:05.000Z</published><updated>2013-08-07T16:38:26.000Z</updated><category
+      string: "<?xml version='1.0' encoding='UTF-8'?><entry xmlns='http://www.w3.org/2005/Atom'
+        xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'
+        xmlns:media='http://search.yahoo.com/mrss/'><id>http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw</id><published>2010-07-06T14:59:05.000Z</published><updated>2014-10-21T17:52:02.000Z</updated><category
         scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#userProfile'/><title
         type='text'>tubeit20101</title><content type='text'/><link rel='alternate'
         type='text/html' href='http://www.youtube.com/channel/UCWWmLvppy3j64IGmA2dpCyw'/><link
         rel='http://gdata.youtube.com/schemas/2007#insight.views' type='text/html'
-        href='https://insight.youtube.com/video-analytics-partner/gwt/csv-zip?token=CiAKAghKEhoIABIWV1dtTHZwcHkzajY0SUdtQTJkcEN5dw&amp;sig=MC0CFDdqHmJesV4Vmnuxdi18j3zxvGT5AhUAi4VFYXLVC0jkW7I1TJgYed48X6k&amp;user_starttime=1377388800000&amp;user_endtime=1377993600000&amp;exp=1378120460836'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw'/><author><name>tubeit20101</name><uri>http://gdata.youtube.com/feeds/api/users/tubeit20101</uri></author><yt:age>31</yt:age><gd:feedLink
+        href='https://insight.youtube.com/video-analytics-partner/gwt/csv-zip?token=CiAKAghKEhoIABIWV1dtTHZwcHkzajY0SUdtQTJkcEN5dw&amp;sig=MC0CFGDAlnULm_wmgp2WaVSiBc5K3DF0AhUAnQOmT5j0mSC_it_M33KW65-t9zc&amp;user_starttime=1415404800000&amp;user_endtime=1416009600000&amp;exp=1416138060311'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw'/><author><name>tubeit20101</name><uri>http://gdata.youtube.com/feeds/api/users/tubeit20101</uri></author><yt:age>32</yt:age><gd:feedLink
         rel='http://gdata.youtube.com/schemas/2007#user.subscriptions' href='http://gdata.youtube.com/feeds/api/users/tubeit20101/subscriptions'
         countHint='0'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.contacts'
         href='http://gdata.youtube.com/feeds/api/users/tubeit20101/contacts' countHint='0'/><gd:feedLink
@@ -66,12 +66,12 @@ http_interactions:
         countHint='0'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.playlists'
         href='http://gdata.youtube.com/feeds/api/users/tubeit20101/playlists'/><gd:feedLink
         rel='http://gdata.youtube.com/schemas/2007#user.uploads' href='http://gdata.youtube.com/feeds/api/users/tubeit20101/uploads'
-        countHint='41'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.newsubscriptionvideos'
+        countHint='44'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.newsubscriptionvideos'
         href='http://gdata.youtube.com/feeds/api/users/tubeit20101/newsubscriptionvideos'/><yt:location>AR</yt:location><yt:maxUploadDuration
-        seconds='930'/><yt:statistics lastWebAccess='1970-01-01T00:00:00.000Z' subscriberCount='0'
-        videoWatchCount='0' viewCount='0' totalUploadViews='0'/><media:thumbnail url='http://s.ytimg.com/yts/img/silhouette250-vflEqxKg9.png'/><yt:username>tubeit20101</yt:username></entry>
-    http_version:
-  recorded_at: Mon, 02 Sep 2013 10:14:21 GMT
+        seconds='43200'/><yt:statistics lastWebAccess='1970-01-01T00:00:00.000Z' subscriberCount='0'
+        videoWatchCount='0' viewCount='0' totalUploadViews='1'/><media:thumbnail url='http://s.ytimg.com/yts/img/avatar_720-vflYJnzBZ.png'/><yt:username>tubeit20101</yt:username></entry>"
+    http_version: 
+  recorded_at: Sun, 16 Nov 2014 10:41:00 GMT
 - request:
     method: get
     uri: http://gdata.youtube.com/feeds/api/users/default/uploads/0KI_osldHWg
@@ -80,9 +80,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.8.8
+      - Faraday v0.9.0
       Authorization:
-      - Bearer ya29.AHES6ZSZn8ZzSlwse_osmNbzQm8URi6JTb2h9NnrGu4OxC0
+      - Bearer ya29.wAB2qDIm4XBEXSmuDjpHHfixzyY0rtvrI9aanu6_O_DnbcbOzM7yjs9p
       X-Gdata-Client:
       - youtube_it
       X-Gdata-Key:
@@ -96,22 +96,22 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - "*/*"
   response:
     status:
-      code: 403
-      message: Forbidden
+      code: 404
+      message: Not Found
     headers:
       X-Gdata-User-Country:
-      - SE
+      - DE
       Content-Type:
       - application/vnd.google.gdata.error+xml
       Transfer-Encoding:
       - chunked
       Date:
-      - Mon, 02 Sep 2013 10:16:53 GMT
+      - Sun, 16 Nov 2014 10:41:00 GMT
       Expires:
-      - Mon, 02 Sep 2013 10:16:53 GMT
+      - Sun, 16 Nov 2014 10:41:00 GMT
       Cache-Control:
       - private, max-age=0
       X-Content-Type-Options:
@@ -123,10 +123,11 @@ http_interactions:
       Server:
       - GSE
       Alternate-Protocol:
-      - 80:quic
+      - 80:quic,p=0.01
     body:
       encoding: UTF-8
-      string: <errors xmlns='http://schemas.google.com/g/2005'><error><domain>GData</domain><code>ServiceForbiddenException</code><internalReason>Private video</internalReason></error></errors>
-    http_version:
-  recorded_at: Mon, 02 Sep 2013 10:16:53 GMT
+      string: "<errors xmlns='http://schemas.google.com/g/2005'><error><domain>GData</domain><code>ResourceNotFoundException</code><internalReason>Video
+        not found</internalReason></error></errors>"
+    http_version: 
+  recorded_at: Sun, 16 Nov 2014 10:41:00 GMT
 recorded_with: VCR 2.5.0

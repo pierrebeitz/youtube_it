@@ -8,26 +8,26 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.8.7
+      - Faraday v0.9.0
       Authorization:
-      - Bearer ya29.AHES6ZSQ5njt5VZGfAo6FSDnptJM3Qiq1ixW7GUluiMcJ20
+      - Bearer ya29.wAB2qDIm4XBEXSmuDjpHHfixzyY0rtvrI9aanu6_O_DnbcbOzM7yjs9p
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
   response:
     status:
       code: 200
       message: OK
     headers:
       X-Gdata-User-Country:
-      - AR
+      - DE
       Content-Type:
       - application/atom+xml; charset=UTF-8
       Expires:
-      - Thu, 27 Jun 2013 22:59:15 GMT
+      - Sun, 16 Nov 2014 10:39:09 GMT
       Date:
-      - Thu, 27 Jun 2013 22:59:15 GMT
+      - Sun, 16 Nov 2014 10:39:09 GMT
       Cache-Control:
       - private, max-age=0, must-revalidate, no-transform
       Vary:
@@ -35,7 +35,7 @@ http_interactions:
       Gdata-Version:
       - '1.0'
       Last-Modified:
-      - Thu, 27 Jun 2013 22:54:50 GMT
+      - Tue, 21 Oct 2014 17:52:02 GMT
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -46,17 +46,19 @@ http_interactions:
       - 1; mode=block
       Server:
       - GSE
+      Alternate-Protocol:
+      - 80:quic,p=0.01
     body:
-      encoding: US-ASCII
-      string: <?xml version='1.0' encoding='UTF-8'?><entry xmlns='http://www.w3.org/2005/Atom'
-        xmlns:media='http://search.yahoo.com/mrss/' xmlns:gd='http://schemas.google.com/g/2005'
-        xmlns:yt='http://gdata.youtube.com/schemas/2007'><id>http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw</id><published>2010-07-06T14:59:05.000Z</published><updated>2013-06-27T22:54:50.000Z</updated><category
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?><entry xmlns='http://www.w3.org/2005/Atom'
+        xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'
+        xmlns:media='http://search.yahoo.com/mrss/'><id>http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw</id><published>2010-07-06T14:59:05.000Z</published><updated>2014-10-21T17:52:02.000Z</updated><category
         scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#userProfile'/><title
         type='text'>tubeit20101</title><content type='text'/><link rel='alternate'
         type='text/html' href='http://www.youtube.com/channel/UCWWmLvppy3j64IGmA2dpCyw'/><link
         rel='http://gdata.youtube.com/schemas/2007#insight.views' type='text/html'
-        href='https://insight.youtube.com/video-analytics-partner/gwt/csv-zip?token=CiAKAghKEhoIABIWV1dtTHZwcHkzajY0SUdtQTJkcEN5dw&amp;sig=MC4CFQCtELhWV24LGqiU0JjcS35abOmwTQIVAKt2DSgpA5VqySZAJVupSwIrqk_A&amp;user_starttime=1371600000000&amp;user_endtime=1372204800000&amp;exp=1372377555115'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw'/><author><name>tubeit20101</name><uri>http://gdata.youtube.com/feeds/api/users/tubeit20101</uri></author><yt:age>31</yt:age><gd:feedLink
+        href='https://insight.youtube.com/video-analytics-partner/gwt/csv-zip?token=CiAKAghKEhoIABIWV1dtTHZwcHkzajY0SUdtQTJkcEN5dw&amp;sig=MC4CFQDEGTwBvncJQvrdICrAtdXLjacyeAIVAJ8Iar3Mo5-USnOgJ0uVGSkiKnCs&amp;user_starttime=1415404800000&amp;user_endtime=1416009600000&amp;exp=1416137949898'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/WWmLvppy3j64IGmA2dpCyw'/><author><name>tubeit20101</name><uri>http://gdata.youtube.com/feeds/api/users/tubeit20101</uri></author><yt:age>32</yt:age><gd:feedLink
         rel='http://gdata.youtube.com/schemas/2007#user.subscriptions' href='http://gdata.youtube.com/feeds/api/users/tubeit20101/subscriptions'
         countHint='0'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.contacts'
         href='http://gdata.youtube.com/feeds/api/users/tubeit20101/contacts' countHint='0'/><gd:feedLink
@@ -64,13 +66,12 @@ http_interactions:
         countHint='0'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.playlists'
         href='http://gdata.youtube.com/feeds/api/users/tubeit20101/playlists'/><gd:feedLink
         rel='http://gdata.youtube.com/schemas/2007#user.uploads' href='http://gdata.youtube.com/feeds/api/users/tubeit20101/uploads'
-        countHint='35'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.newsubscriptionvideos'
+        countHint='42'/><gd:feedLink rel='http://gdata.youtube.com/schemas/2007#user.newsubscriptionvideos'
         href='http://gdata.youtube.com/feeds/api/users/tubeit20101/newsubscriptionvideos'/><yt:location>AR</yt:location><yt:maxUploadDuration
-        seconds='930'/><yt:statistics lastWebAccess='1970-01-01T00:00:00.000Z' subscriberCount='0'
-        videoWatchCount='0' viewCount='104' totalUploadViews='0'/><media:thumbnail
-        url='http://s.ytimg.com/yts/img/silhouette250-vflEqxKg9.png'/><yt:username>tubeit20101</yt:username></entry>
+        seconds='43200'/><yt:statistics lastWebAccess='1970-01-01T00:00:00.000Z' subscriberCount='0'
+        videoWatchCount='0' viewCount='0' totalUploadViews='1'/><media:thumbnail url='http://s.ytimg.com/yts/img/avatar_720-vflYJnzBZ.png'/><yt:username>tubeit20101</yt:username></entry>"
     http_version: 
-  recorded_at: Thu, 27 Jun 2013 22:59:23 GMT
+  recorded_at: Sun, 16 Nov 2014 10:39:10 GMT
 - request:
     method: get
     uri: http://gdata.youtube.com/feeds/api/users/sbnation/playlists?max-results=25&start-index=1&v=2.1
@@ -79,9 +80,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.8.7
+      - Faraday v0.9.0
       Authorization:
-      - Bearer ya29.AHES6ZSQ5njt5VZGfAo6FSDnptJM3Qiq1ixW7GUluiMcJ20
+      - Bearer ya29.wAB2qDIm4XBEXSmuDjpHHfixzyY0rtvrI9aanu6_O_DnbcbOzM7yjs9p
       X-Gdata-Client:
       - youtube_it
       X-Gdata-Key:
@@ -95,20 +96,20 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
   response:
     status:
       code: 200
       message: OK
     headers:
       X-Gdata-User-Country:
-      - AR
+      - DE
       Content-Type:
       - application/atom+xml; charset=UTF-8; type=feed
       Expires:
-      - Thu, 27 Jun 2013 22:59:15 GMT
+      - Sun, 16 Nov 2014 10:39:10 GMT
       Date:
-      - Thu, 27 Jun 2013 22:59:15 GMT
+      - Sun, 16 Nov 2014 10:39:10 GMT
       Cache-Control:
       - private, max-age=300, no-transform
       Vary:
@@ -116,9 +117,9 @@ http_interactions:
       Gdata-Version:
       - '2.1'
       Etag:
-      - W/"CU4BRHk5cCp7I2A9WhFRE0o."
+      - W/"DkQBQXwzeCp7I2A9XRdVEU4."
       Last-Modified:
-      - Thu, 27 Jun 2013 22:59:15 GMT
+      - Sun, 16 Nov 2014 10:39:10 GMT
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -129,336 +130,332 @@ http_interactions:
       - 1; mode=block
       Server:
       - GSE
+      Alternate-Protocol:
+      - 80:quic,p=0.01
     body:
-      encoding: US-ASCII
-      string: ! '<?xml version=''1.0'' encoding=''UTF-8''?><feed xmlns=''http://www.w3.org/2005/Atom''
-        xmlns:media=''http://search.yahoo.com/mrss/'' xmlns:openSearch=''http://a9.com/-/spec/opensearch/1.1/''
-        xmlns:gd=''http://schemas.google.com/g/2005'' xmlns:yt=''http://gdata.youtube.com/schemas/2007''
-        gd:etag=''W/&quot;CU4BRHk5cCp7I2A9WhFRE0o.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlists</id><updated>2013-06-27T22:59:15.728Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Playlists
-        of sbnation</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com''/><link
-        rel=''http://schemas.google.com/g/2005#feed'' type=''application/atom+xml''
-        href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists?client=youtube_it''/><link
-        rel=''http://schemas.google.com/g/2005#batch'' type=''application/atom+xml''
-        href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/batch?client=youtube_it''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists?start-index=1&amp;max-results=25&amp;client=youtube_it''/><link
-        rel=''service'' type=''application/atomsvc+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists?alt=atom-service''/><link
-        rel=''next'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists?start-index=26&amp;max-results=25&amp;client=youtube_it''/><author><name>SB
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom'
+        xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'
+        xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:media='http://search.yahoo.com/mrss/'
+        gd:etag='W/&quot;DkQBQXwzeCp7I2A9XRdVEU4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlists</id><updated>2014-11-16T10:39:10.280Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Playlists
+        of sbnation</title><logo>http://www.gstatic.com/youtube/img/logo.png</logo><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com'/><link rel='hub'
+        href='http://pubsubhubbub.appspot.com'/><link rel='http://schemas.google.com/g/2005#feed'
+        type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?client=youtube_it'/><link
+        rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/batch?client=youtube_it'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?start-index=1&amp;max-results=25&amp;client=youtube_it'/><link
+        rel='service' type='application/atomsvc+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?alt=atom-service'/><link
+        rel='next' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?start-index=26&amp;max-results=25&amp;client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><generator
-        version=''2.1'' uri=''http://gdata.youtube.com''>YouTube data API</generator><openSearch:totalResults>38</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><entry
-        gd:etag=''W/&quot;A0UCQn47eCp7I2A9WhFREEU.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj</id><published>2013-06-05T16:59:13.000Z</published><updated>2013-06-24T15:54:23.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>2013
-        NFLPA Rookie Premiere Interviews</title><summary>SB Nation went to LA to cover
-        the NFLPA Rookie Premiere again this year, and here''s 34 interviews with
-        the newest crop of incoming rookies.</summary><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>31</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/Xx5Y3bcECLw/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/Xx5Y3bcECLw/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/Xx5Y3bcECLw/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;DEEGRX47eCp7I2A9WhFTE08.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQFzy7HkB2nho4Mw8N9thCu</id><published>2013-04-23T16:07:21.000Z</published><updated>2013-06-04T06:17:04.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>NBA
-        Playoffs 2013</title><summary>The very best NBA Playoffs coverage from across
-        the SB Nation YouTube Network.</summary><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQFzy7HkB2nho4Mw8N9thCu''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFQFzy7HkB2nho4Mw8N9thCu''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQFzy7HkB2nho4Mw8N9thCu?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>41</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/KWJIL2aJKJ8/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/KWJIL2aJKJ8/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/KWJIL2aJKJ8/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFQFzy7HkB2nho4Mw8N9thCu</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;C04FR347eCp7I2A9WhBbFkk.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQVNVLt7iuHVKIL74OCkA79</id><published>2013-04-23T15:20:05.000Z</published><updated>2013-05-15T18:18:36.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Featured
-        Network Channel Videos</title><summary>A meticulously curated list of the
-        very best from our 150+ channel YouTube network.</summary><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQVNVLt7iuHVKIL74OCkA79''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFQVNVLt7iuHVKIL74OCkA79''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQVNVLt7iuHVKIL74OCkA79?client=youtube_it''/><author><name>SB
+        version='2.1' uri='http://gdata.youtube.com'>YouTube data API</generator><openSearch:totalResults>28</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><entry
+        gd:etag='W/&quot;CkEBQ347eCp7I2A9XRdVEE0.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFSy5gO6PRHYoUTzIezPU7cN</id><published>2014-11-14T21:29:58.000Z</published><updated>2014-11-14T21:30:52.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Luke
+        Thomas is Pissed</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFSy5gO6PRHYoUTzIezPU7cN'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFSy5gO6PRHYoUTzIezPU7cN'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFSy5gO6PRHYoUTzIezPU7cN?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>2</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/nwSY0aWJ25M/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/nwSY0aWJ25M/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/nwSY0aWJ25M/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFSy5gO6PRHYoUTzIezPU7cN</yt:playlistId></entry><entry
+        gd:etag='W/&quot;CUMBQX47eCp7I2A9XRdWFkg.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFR2cU_ARfbW2REmFXmUwfSL</id><published>2014-10-31T22:14:16.000Z</published><updated>2014-11-10T21:04:10.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Origins
+        - Presented by Dodge</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFR2cU_ARfbW2REmFXmUwfSL'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFR2cU_ARfbW2REmFXmUwfSL'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFR2cU_ARfbW2REmFXmUwfSL?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:accessControl
+        action='monetize' permission='allowed'/><yt:countHint>2</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/coR2sPDk8S8/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/coR2sPDk8S8/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/coR2sPDk8S8/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFR2cU_ARfbW2REmFXmUwfSL</yt:playlistId></entry><entry
+        gd:etag='W/&quot;D0AFRH47eCp7I2A9XRdWGUw.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFS-a5tzcSGKdQ9ntZUw6co8</id><published>2014-10-17T17:05:32.000Z</published><updated>2014-11-13T21:55:15.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Breaking
+        Madden, Season 2</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFS-a5tzcSGKdQ9ntZUw6co8'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFS-a5tzcSGKdQ9ntZUw6co8'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFS-a5tzcSGKdQ9ntZUw6co8?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>13</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/Ag6k5eEYnSI/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/Ag6k5eEYnSI/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/Ag6k5eEYnSI/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFQVNVLt7iuHVKIL74OCkA79</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CkEBRX47eCp7I2A9WhFREUQ.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ</id><published>2013-04-01T02:49:42.000Z</published><updated>2013-06-25T20:04:14.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Uffsides</title><summary>Matt
-        Ufford talking NFL with a wide range of badass guests. ''Nuff said.</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>23</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/5er8_QihVAc/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/5er8_QihVAc/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/5er8_QihVAc/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;D0UFSX47eCp7I2A9WhFSGEg.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve</id><published>2013-04-01T02:21:00.000Z</published><updated>2013-06-21T22:53:38.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>The
+        url='https://i.ytimg.com/vi/wPQt1v2CCc8/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/wPQt1v2CCc8/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/wPQt1v2CCc8/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFS-a5tzcSGKdQ9ntZUw6co8</yt:playlistId></entry><entry
+        gd:etag='W/&quot;DUENR347eCp7I2A9XRdWFkk.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRcmsIVhy33pzu0TFz7jaUM</id><published>2014-09-15T23:05:06.000Z</published><updated>2014-11-10T19:28:16.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Fan
+        Press Conference</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRcmsIVhy33pzu0TFz7jaUM'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFRcmsIVhy33pzu0TFz7jaUM'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRcmsIVhy33pzu0TFz7jaUM?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>8</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/mU5M5hQgmQA/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/mU5M5hQgmQA/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/mU5M5hQgmQA/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFRcmsIVhy33pzu0TFz7jaUM</yt:playlistId></entry><entry
+        gd:etag='W/&quot;A0IDQH47eCp7I2A9XRdWFUk.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRqxMPvGJkeBI_c7Psta4ga</id><published>2014-08-31T19:17:49.000Z</published><updated>2014-11-09T16:12:51.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Wake
+        Up, College Football</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRqxMPvGJkeBI_c7Psta4ga'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFRqxMPvGJkeBI_c7Psta4ga'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRqxMPvGJkeBI_c7Psta4ga?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>11</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/wUS12oBQLcA/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/wUS12oBQLcA/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/wUS12oBQLcA/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFRqxMPvGJkeBI_c7Psta4ga</yt:playlistId></entry><entry
+        gd:etag='W/&quot;CkEBQH47eCp7I2A9XRdWGE4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRaH8WdeWdgW32BkcV3PsdT</id><published>2014-08-28T15:52:08.000Z</published><updated>2014-11-12T22:17:31.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Uffsides
+        2014</title><summary/><content type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRaH8WdeWdgW32BkcV3PsdT'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFRaH8WdeWdgW32BkcV3PsdT'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRaH8WdeWdgW32BkcV3PsdT?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>18</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/SrDSZpWbg8A/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/SrDSZpWbg8A/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/SrDSZpWbg8A/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFRaH8WdeWdgW32BkcV3PsdT</yt:playlistId></entry><entry
+        gd:etag='W/&quot;C08ARn47eCp7I2A9XRdWF08.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFSwLnEkam0bZqT7QjMaC8K2</id><published>2014-08-27T17:06:30.000Z</published><updated>2014-11-11T16:04:07.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Easy
+        Call 2014</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFSwLnEkam0bZqT7QjMaC8K2'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFSwLnEkam0bZqT7QjMaC8K2'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFSwLnEkam0bZqT7QjMaC8K2?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>22</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/Nr0aVXs3fsc/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/Nr0aVXs3fsc/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/Nr0aVXs3fsc/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFSwLnEkam0bZqT7QjMaC8K2</yt:playlistId></entry><entry
+        gd:etag='W/&quot;C0UFRH47eCp7I2A9XRdWGE4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFTb-2Z2Pc98U5IBd29XyOi6</id><published>2014-08-06T16:58:54.000Z</published><updated>2014-11-12T22:26:55.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Keepers
+        2014</title><summary/><content type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFTb-2Z2Pc98U5IBd29XyOi6'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFTb-2Z2Pc98U5IBd29XyOi6'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFTb-2Z2Pc98U5IBd29XyOi6?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>19</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/5hkPlhPUJ54/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/5hkPlhPUJ54/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/5hkPlhPUJ54/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFTb-2Z2Pc98U5IBd29XyOi6</yt:playlistId></entry><entry
+        gd:etag='W/&quot;A0IARH47eCp7I2A9XRdRGEo.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFSlzTmktOxqQli97JKwLEai</id><published>2014-07-21T21:19:29.000Z</published><updated>2014-10-09T18:32:25.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>First
+        and Long -- Sponsored by Nike</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFSlzTmktOxqQli97JKwLEai'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFSlzTmktOxqQli97JKwLEai'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFSlzTmktOxqQli97JKwLEai?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>17</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/nJe2TYpQty0/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/nJe2TYpQty0/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/nJe2TYpQty0/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFSlzTmktOxqQli97JKwLEai</yt:playlistId></entry><entry
+        gd:etag='W/&quot;DkIMRH47eCp7I2A9XRZTEUo.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFSQXcxH7tXsXETLG_W7cd_b</id><published>2014-03-03T19:58:26.000Z</published><updated>2014-05-15T17:23:05.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>2014
+        NFL Draft Profiles</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFSQXcxH7tXsXETLG_W7cd_b'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFSQXcxH7tXsXETLG_W7cd_b'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFSQXcxH7tXsXETLG_W7cd_b?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>30</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/pNg6xGWO_dI/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/pNg6xGWO_dI/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/pNg6xGWO_dI/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFSQXcxH7tXsXETLG_W7cd_b</yt:playlistId></entry><entry
+        gd:etag='W/&quot;CUIASH47eCp7I2A9XRZREU8.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQXCTIUd0lCiCSpEu974dIV</id><published>2014-02-10T18:43:08.000Z</published><updated>2014-06-07T06:45:49.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>2014
+        World Cup</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQXCTIUd0lCiCSpEu974dIV'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFQXCTIUd0lCiCSpEu974dIV'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQXCTIUd0lCiCSpEu974dIV?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>9</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/gNvawquBhF0/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/gNvawquBhF0/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/gNvawquBhF0/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFQXCTIUd0lCiCSpEu974dIV</yt:playlistId></entry><entry
+        gd:etag='W/&quot;D0YFQX47eCp7I2A9WhFbGE4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFREaYylWSdtPmHv613llUU0</id><published>2013-09-10T17:42:19.000Z</published><updated>2013-09-10T17:45:10.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>A
+        Day's Work with Wade Boggs</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFREaYylWSdtPmHv613llUU0'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFREaYylWSdtPmHv613llUU0'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFREaYylWSdtPmHv613llUU0?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>9</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/gZfO-CTJD-Y/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/gZfO-CTJD-Y/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/gZfO-CTJD-Y/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFREaYylWSdtPmHv613llUU0</yt:playlistId></entry><entry
+        gd:etag='W/&quot;Ak4FQX47eCp7I2A9XRZSEkk.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFTEXa1uitLVO0Ya2FgVCPam</id><published>2013-09-10T17:25:19.000Z</published><updated>2014-05-28T03:48:30.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Keepers
+        2013</title><summary/><content type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFTEXa1uitLVO0Ya2FgVCPam'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFTEXa1uitLVO0Ya2FgVCPam'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFTEXa1uitLVO0Ya2FgVCPam?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>17</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/-U8n7inCg48/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/-U8n7inCg48/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/-U8n7inCg48/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFTEXa1uitLVO0Ya2FgVCPam</yt:playlistId></entry><entry
+        gd:etag='W/&quot;A0YDQn47eCp7I2A9XRZaEUg.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRBD-6D6ZhgVPYxSF98daCg</id><published>2013-09-10T17:23:38.000Z</published><updated>2014-08-27T17:06:13.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Easy
+        Call 2013</title><summary>College football picks and great NYC food. What
+        more can you ask for in a weekly college football show?</summary><content
+        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRBD-6D6ZhgVPYxSF98daCg'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFRBD-6D6ZhgVPYxSF98daCg'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRBD-6D6ZhgVPYxSF98daCg?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>16</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/CNDSFY5bUyQ/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/CNDSFY5bUyQ/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/CNDSFY5bUyQ/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFRBD-6D6ZhgVPYxSF98daCg</yt:playlistId></entry><entry
+        gd:etag='W/&quot;A0UCQn47eCp7I2A9WhFREEU.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj</id><published>2013-06-05T16:59:13.000Z</published><updated>2013-06-24T15:54:23.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>2013
+        NFLPA Rookie Premiere Interviews</title><summary>SB Nation went to LA to cover
+        the NFLPA Rookie Premiere again this year, and here's 34 interviews with the
+        newest crop of incoming rookies.</summary><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>31</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/Xx5Y3bcECLw/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/Xx5Y3bcECLw/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/Xx5Y3bcECLw/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFQHb01ptmZ2QpYxlCU0rgHj</yt:playlistId></entry><entry
+        gd:etag='W/&quot;C0cNQX47eCp7I2A9XRZaEkk.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ</id><published>2013-04-01T02:49:42.000Z</published><updated>2014-08-28T15:51:30.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Uffsides
+        2013</title><summary>Matt Ufford talking NFL with a wide range of badass guests.
+        'Nuff said.</summary><content type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>148</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/5er8_QihVAc/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/5er8_QihVAc/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/5er8_QihVAc/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFR72uyOMNwJpTclk6nnr4gQ</yt:playlistId></entry><entry
+        gd:etag='W/&quot;D0MGRH47eCp7I2A9Wh5WFEw.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve</id><published>2013-04-01T02:21:00.000Z</published><updated>2013-11-25T21:37:05.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>The
         Halfy Hour</title><summary>Friday afternoon discourse over beer between Matt,
         Dan and a fun mix of athlete/celebrity/supermodel guests. Join the fun.</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>17</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/qiSAn1G1qdg/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/qiSAn1G1qdg/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/qiSAn1G1qdg/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CEUGRn47eCp7I2A9WhFSFko.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4</id><published>2013-04-01T02:17:52.000Z</published><updated>2013-06-19T20:03:47.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Dan
+        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>22</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/qiSAn1G1qdg/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/qiSAn1G1qdg/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/qiSAn1G1qdg/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFQ_gHZ-JRfuwSnsDpqd15ve</yt:playlistId></entry><entry
+        gd:etag='W/&quot;DU8CSH47eCp7I2A9XRZTFkQ.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4</id><published>2013-04-01T02:17:52.000Z</published><updated>2014-05-21T18:44:29.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Dan
         on Fire</title><summary>The most celebrated purveyor of cold-hard truth on
-        the internet and airwaves. Believe that.</summary><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>19</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/_JqC13At2ZQ/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/_JqC13At2ZQ/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/_JqC13At2ZQ/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CEYBSX47eCp7I2A9WhBWEEw.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFSj0-0SX-bWuvfuWI9CfzT2</id><published>2013-03-27T18:13:33.000Z</published><updated>2013-04-03T18:02:38.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Boxing</title><summary/><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFSj0-0SX-bWuvfuWI9CfzT2''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFSj0-0SX-bWuvfuWI9CfzT2''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFSj0-0SX-bWuvfuWI9CfzT2?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>12</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/eJfZAEFK_Mo/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/eJfZAEFK_Mo/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/eJfZAEFK_Mo/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFSj0-0SX-bWuvfuWI9CfzT2</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;C0EDQH47eCp7I2A9WhFRE0s.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFQXTXkKbHzaSPO7VioBViPZ</id><published>2013-03-26T18:43:49.000Z</published><updated>2013-06-27T19:34:31.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>The
-        Daily Win</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFQXTXkKbHzaSPO7VioBViPZ''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFQXTXkKbHzaSPO7VioBViPZ''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFQXTXkKbHzaSPO7VioBViPZ?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>78</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/dRBZU29aPpk/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/dRBZU29aPpk/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/dRBZU29aPpk/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFQXTXkKbHzaSPO7VioBViPZ</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;A04MQ347eCp7I2A9WhFREUU.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2</id><published>2013-03-25T19:48:15.000Z</published><updated>2013-06-25T19:53:02.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Three
-        Reasons Why</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>34</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/B_VM8axbBYU/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/B_VM8axbBYU/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/B_VM8axbBYU/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CUQGQ347eCp7I2A9WhNQE0s.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw</id><published>2012-11-19T22:13:49.000Z</published><updated>2012-11-19T22:15:22.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>NFL
-        Man Caves</title><summary>SB Nations crashes the homes of NFL''s hottest athletes
+        the internet and airwaves. Believe that.</summary><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>41</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/_JqC13At2ZQ/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/_JqC13At2ZQ/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/_JqC13At2ZQ/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFRGvYtbolM3_Pg0jIJCdAG4</yt:playlistId></entry><entry
+        gd:etag='W/&quot;CkEGSX47eCp7I2A9Wh9SEEs.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2</id><published>2013-03-25T19:48:15.000Z</published><updated>2014-01-30T05:43:48.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Three
+        Reasons Why</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>68</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/B_VM8axbBYU/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/B_VM8axbBYU/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/B_VM8axbBYU/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFRh7JgsyviRQg2wsgKWRlB2</yt:playlistId></entry><entry
+        gd:etag='W/&quot;CUQGQ347eCp7I2A9WhNQE0s.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw</id><published>2012-11-19T22:13:49.000Z</published><updated>2012-11-19T22:15:22.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>NFL
+        Man Caves</title><summary>SB Nations crashes the homes of NFL's hottest athletes
         to check out their man caves and spend time with them on their day off.</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw?client=youtube_it''/><author><name>SB
+        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>5</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/FmWU0rrjkvA/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/FmWU0rrjkvA/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/FmWU0rrjkvA/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CEEGRH47eCp7I2A9WhNRE0U.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C</id><published>2012-09-09T21:31:43.000Z</published><updated>2012-11-08T13:50:25.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Shutdown
-        Fullback: 8-BIT THEATER</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C?client=youtube_it''/><author><name>SB
+        url='https://i.ytimg.com/vi/FmWU0rrjkvA/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/FmWU0rrjkvA/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/FmWU0rrjkvA/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFTL9jxlfwA5I-3wwMr4Sqkw</yt:playlistId></entry><entry
+        gd:etag='W/&quot;CEEGRH47eCp7I2A9WhNRE0U.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C</id><published>2012-09-09T21:31:43.000Z</published><updated>2012-11-08T13:50:25.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Shutdown
+        Fullback: 8-BIT THEATER</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>15</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/a7beod3vGbw/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/a7beod3vGbw/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/a7beod3vGbw/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;DUYFQ347eCp7I2A9WhBWE0s.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL62D8DD12F13638D4</id><published>2012-08-28T17:32:53.000Z</published><updated>2013-04-07T20:38:32.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Fantasy
-        Football: Rankings, Advice, Cheat Sheets And More</title><summary>Fantasy
-        Football 2012: Rankings, Advice, Cheat Sheets And More</summary><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PL62D8DD12F13638D4''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL62D8DD12F13638D4''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL62D8DD12F13638D4?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>14</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/lQHpXM-0nSc/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/lQHpXM-0nSc/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/lQHpXM-0nSc/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL62D8DD12F13638D4</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CEYAQn47eCp7I2A9WhJXGE0.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL84EC2BADFE8B7A10</id><published>2012-07-31T21:23:55.000Z</published><updated>2012-08-12T20:09:03.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Olympics
+        url='https://i.ytimg.com/vi/a7beod3vGbw/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/a7beod3vGbw/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/a7beod3vGbw/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLUXSZMIiUfFS-0tW_Q7VVg18mbHRwpV4C</yt:playlistId></entry><entry
+        gd:etag='W/&quot;DkIMRX47eCp7I2A9WhFUEE8.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL84EC2BADFE8B7A10</id><published>2012-07-31T21:23:55.000Z</published><updated>2013-08-20T18:49:44.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Olympics
         2012 Medal Count</title><summary>Daily 8-bit medal counts from SB Nation Studios.</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PL84EC2BADFE8B7A10''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL84EC2BADFE8B7A10''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL84EC2BADFE8B7A10?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>15</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/bg1vKuIAQz8/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/bg1vKuIAQz8/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/bg1vKuIAQz8/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL84EC2BADFE8B7A10</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;D0ANSH47eCp7I2A9WhJVFE4.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL687E1D130C1787F2</id><published>2012-07-06T14:32:06.000Z</published><updated>2012-08-31T17:56:39.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>GIFs
-        of the Week</title><summary>Jon Bois'' weekly GIFs of the week.</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PL687E1D130C1787F2''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL687E1D130C1787F2''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL687E1D130C1787F2?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>12</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/17C8NxKCe9M/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/17C8NxKCe9M/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/17C8NxKCe9M/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL687E1D130C1787F2</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;DUEAQX47eCp7I2A9WhJSEkg.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL70ED338E187F190B</id><published>2012-06-25T17:31:32.000Z</published><updated>2012-07-02T19:34:00.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>2012
-        NBA Draft</title><summary>Player profiles of the top prospects in the 2012
-        NBA Draft</summary><content type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PL70ED338E187F190B''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL70ED338E187F190B''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL70ED338E187F190B?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>19</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/JbHjYn9DKAw/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/JbHjYn9DKAw/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/JbHjYn9DKAw/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL70ED338E187F190B</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;DEQBQH47eCp7I2A9WhJQF0g.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL1BB0491BFBCB03CF</id><published>2012-05-25T20:09:45.000Z</published><updated>2012-07-31T17:39:11.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Core
+        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL84EC2BADFE8B7A10'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL84EC2BADFE8B7A10'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL84EC2BADFE8B7A10?client=youtube_it'/><author><name>SB
+        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>14</yt:countHint><media:group><media:thumbnail
+        url='https://i.ytimg.com/vi/bg1vKuIAQz8/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/bg1vKuIAQz8/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/bg1vKuIAQz8/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL84EC2BADFE8B7A10</yt:playlistId></entry><entry
+        gd:etag='W/&quot;C0QAQH47eCp7I2A9XRZXEUg.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL1BB0491BFBCB03CF</id><published>2012-05-25T20:09:45.000Z</published><updated>2014-06-30T18:02:21.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Core
         of Sports</title><summary>Presented by the United States Marine Corps</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PL1BB0491BFBCB03CF''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL1BB0491BFBCB03CF''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL1BB0491BFBCB03CF?client=youtube_it''/><author><name>SB
+        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL1BB0491BFBCB03CF'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL1BB0491BFBCB03CF'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL1BB0491BFBCB03CF?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>6</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/Dv78MOe7fRw/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/Dv78MOe7fRw/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/Dv78MOe7fRw/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL1BB0491BFBCB03CF</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;C0ICQn47eCp7I2A9WhJWGEg.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL89E1887DB879CE6F</id><published>2012-05-25T16:19:41.000Z</published><updated>2012-08-24T23:39:23.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>NFL
-        Rookies in LA</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PL89E1887DB879CE6F''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL89E1887DB879CE6F''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL89E1887DB879CE6F?client=youtube_it''/><author><name>SB
+        url='https://i.ytimg.com/vi/Dv78MOe7fRw/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/Dv78MOe7fRw/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/Dv78MOe7fRw/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL1BB0491BFBCB03CF</yt:playlistId></entry><entry
+        gd:etag='W/&quot;C0ICQn47eCp7I2A9WhJWGEg.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL89E1887DB879CE6F</id><published>2012-05-25T16:19:41.000Z</published><updated>2012-08-24T23:39:23.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>NFL
+        Rookies in LA</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PL89E1887DB879CE6F'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL89E1887DB879CE6F'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL89E1887DB879CE6F?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>34</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/2nwS30dBCF8/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/2nwS30dBCF8/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/2nwS30dBCF8/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL89E1887DB879CE6F</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;C0AASH47eCp7I2A9WhVUGUs.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLEA393700070A8E4E</id><published>2012-05-25T15:55:27.000Z</published><updated>2012-05-25T16:02:29.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>NFL
-        Rookies as SB Nation Correspondents</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLEA393700070A8E4E''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLEA393700070A8E4E''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLEA393700070A8E4E?client=youtube_it''/><author><name>SB
+        url='https://i.ytimg.com/vi/2nwS30dBCF8/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/2nwS30dBCF8/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/2nwS30dBCF8/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL89E1887DB879CE6F</yt:playlistId></entry><entry
+        gd:etag='W/&quot;C0AASH47eCp7I2A9WhVUGUs.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLEA393700070A8E4E</id><published>2012-05-25T15:55:27.000Z</published><updated>2012-05-25T16:02:29.000Z</updated><category
+        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>NFL
+        Rookies as SB Nation Correspondents</title><summary/><content type='application/atom+xml;type=feed'
+        src='http://gdata.youtube.com/feeds/api/playlists/PLEA393700070A8E4E'/><link
+        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
+        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLEA393700070A8E4E'/><link
+        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLEA393700070A8E4E?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>6</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/OJLJ-LGDdD8/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/OJLJ-LGDdD8/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/OJLJ-LGDdD8/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLEA393700070A8E4E</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;D0MMQX47eCp7I2A9WhJTFE0.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL16847E5329EFAF15</id><published>2012-05-14T19:41:26.000Z</published><updated>2012-06-22T22:51:20.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>NBA
-        Finals 2012 Coverage</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PL16847E5329EFAF15''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL16847E5329EFAF15''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL16847E5329EFAF15?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>27</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/xzfehwhmrgI/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/xzfehwhmrgI/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/xzfehwhmrgI/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL16847E5329EFAF15</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;D0YHSH47eCp7I2A9WhVaFE8.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLA1E26D495A711D10</id><published>2012-05-04T15:37:43.000Z</published><updated>2012-06-11T14:32:19.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>2012
-        Belmont Stakes, Kentucky Derby, Preakness Stakes</title><summary>Coverage
-        of the 2012 Triple Crown of horse racing - Kentucky Derby, Preakness Stakes
-        and the Belmont Stakes.</summary><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PLA1E26D495A711D10''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLA1E26D495A711D10''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLA1E26D495A711D10?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>16</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/5BmKB_wwv8I/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/5BmKB_wwv8I/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/5BmKB_wwv8I/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLA1E26D495A711D10</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;Ck4GSX47eCp7I2A9WhJSFk8.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL349BDBC19C410F1A</id><published>2012-04-25T19:33:38.000Z</published><updated>2012-07-07T00:28:48.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>2012
-        NFL Draft Coverage</title><summary/><content type=''application/atom+xml;type=feed''
-        src=''http://gdata.youtube.com/feeds/api/playlists/PL349BDBC19C410F1A''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL349BDBC19C410F1A''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL349BDBC19C410F1A?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>27</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/Je8y5s-gU9E/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/Je8y5s-gU9E/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/Je8y5s-gU9E/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL349BDBC19C410F1A</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;Ck4AQ347eCp7I2A9WhJSE0k.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL97CA0DA11EB8047B</id><published>2012-04-16T14:48:52.000Z</published><updated>2012-07-03T18:42:22.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>SB
-        Nation''s Most Watched</title><summary>Our 10 most viewed videos, updated
-        weekly.</summary><content type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PL97CA0DA11EB8047B''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL97CA0DA11EB8047B''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL97CA0DA11EB8047B?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>10</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/Lz6Mt944yq4/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/Lz6Mt944yq4/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/Lz6Mt944yq4/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL97CA0DA11EB8047B</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;CE8BSX47eCp7I2A9WhVVFUo.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PL772CF96063386037</id><published>2012-04-02T17:30:08.000Z</published><updated>2012-05-09T14:14:18.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>2012
-        NFL Draft Prospect Player Profiles - The Next Big Stars</title><summary/><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PL772CF96063386037''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PL772CF96063386037''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL772CF96063386037?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>33</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/FDZvugSoPHI/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/FDZvugSoPHI/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/FDZvugSoPHI/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PL772CF96063386037</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;DUUMQn47eCp7I2A9WhJXGEs.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLAA4551B4412001DF</id><published>2012-03-29T17:43:29.000Z</published><updated>2012-08-13T14:14:43.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>London
-        2012 Olympics - Watch all our Olympics videos!</title><summary>All of SB Nation''s
-        olympic videos in one place. Be sure to check out our daily medal count updates!</summary><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PLAA4551B4412001DF''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLAA4551B4412001DF''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLAA4551B4412001DF?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>65</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/XmGbrfDn--s/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/XmGbrfDn--s/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/XmGbrfDn--s/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLAA4551B4412001DF</yt:playlistId></entry><entry
-        gd:etag=''W/&quot;C08BQ347eCp7I2A9WhJUE04.&quot;''><id>tag:youtube.com,2008:user:sbnation:playlist:PLA82491A50035827C</id><published>2012-03-29T17:42:38.000Z</published><updated>2012-09-11T02:50:52.000Z</updated><category
-        scheme=''http://schemas.google.com/g/2005#kind'' term=''http://gdata.youtube.com/schemas/2007#playlistLink''/><title>Tennis</title><summary/><content
-        type=''application/atom+xml;type=feed'' src=''http://gdata.youtube.com/feeds/api/playlists/PLA82491A50035827C''/><link
-        rel=''related'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it''/><link
-        rel=''alternate'' type=''text/html'' href=''http://www.youtube.com/playlist?list=PLA82491A50035827C''/><link
-        rel=''self'' type=''application/atom+xml'' href=''http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLA82491A50035827C?client=youtube_it''/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>12</yt:countHint><media:group><media:thumbnail
-        url=''http://i.ytimg.com/vi/Gowbkv9cSTg/default.jpg'' height=''90'' width=''120''
-        yt:name=''default''/><media:thumbnail url=''http://i.ytimg.com/vi/Gowbkv9cSTg/mqdefault.jpg''
-        height=''180'' width=''320'' yt:name=''mqdefault''/><media:thumbnail url=''http://i.ytimg.com/vi/Gowbkv9cSTg/hqdefault.jpg''
-        height=''360'' width=''480'' yt:name=''hqdefault''/><yt:duration seconds=''0''/></media:group><yt:playlistId>PLA82491A50035827C</yt:playlistId></entry></feed>'
+        url='https://i.ytimg.com/vi/OJLJ-LGDdD8/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/OJLJ-LGDdD8/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/OJLJ-LGDdD8/hqdefault.jpg'
+        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLEA393700070A8E4E</yt:playlistId></entry></feed>"
     http_version: 
-  recorded_at: Thu, 27 Jun 2013 22:59:24 GMT
+  recorded_at: Sun, 16 Nov 2014 10:39:10 GMT
 - request:
     method: get
     uri: http://gdata.youtube.com/feeds/api/users/sbnation/playlists?max-results=25&start-index=26&v=2.1
@@ -467,9 +464,9 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.8.7
+      - Faraday v0.9.0
       Authorization:
-      - Bearer ya29.AHES6ZSQ5njt5VZGfAo6FSDnptJM3Qiq1ixW7GUluiMcJ20
+      - Bearer ya29.wAB2qDIm4XBEXSmuDjpHHfixzyY0rtvrI9aanu6_O_DnbcbOzM7yjs9p
       X-Gdata-Client:
       - youtube_it
       X-Gdata-Key:
@@ -483,20 +480,20 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
   response:
     status:
       code: 200
       message: OK
     headers:
       X-Gdata-User-Country:
-      - AR
+      - DE
       Content-Type:
       - application/atom+xml; charset=UTF-8; type=feed
       Expires:
-      - Thu, 27 Jun 2013 22:59:17 GMT
+      - Sun, 16 Nov 2014 10:39:10 GMT
       Date:
-      - Thu, 27 Jun 2013 22:59:17 GMT
+      - Sun, 16 Nov 2014 10:39:10 GMT
       Cache-Control:
       - private, max-age=300, no-transform
       Vary:
@@ -504,9 +501,9 @@ http_interactions:
       Gdata-Version:
       - '2.1'
       Etag:
-      - W/"CU4BRnY_eyp7I2A9WhFRE0o."
+      - W/"DkQBQXg-cCp7I2A9XRdVEU4."
       Last-Modified:
-      - Thu, 27 Jun 2013 22:59:17 GMT
+      - Sun, 16 Nov 2014 10:39:10 GMT
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -517,149 +514,27 @@ http_interactions:
       - 1; mode=block
       Server:
       - GSE
+      Alternate-Protocol:
+      - 80:quic,p=0.01
     body:
-      encoding: US-ASCII
-      string: ! "<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom'
-        xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom'
         xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'
-        gd:etag='W/&quot;CU4BRnY_eyp7I2A9WhFRE0o.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlists</id><updated>2013-06-27T22:59:17.843Z</updated><category
+        xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:media='http://search.yahoo.com/mrss/'
+        gd:etag='W/&quot;DkQBQXg-cCp7I2A9XRdVEU4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlists</id><updated>2014-11-16T10:39:10.658Z</updated><category
         scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Playlists
-        of sbnation</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link
+        of sbnation</title><logo>http://www.gstatic.com/youtube/img/logo.png</logo><link
         rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com'/><link rel='http://schemas.google.com/g/2005#feed'
+        rel='alternate' type='text/html' href='http://www.youtube.com'/><link rel='hub'
+        href='http://pubsubhubbub.appspot.com'/><link rel='http://schemas.google.com/g/2005#feed'
         type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?client=youtube_it'/><link
         rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/batch?client=youtube_it'/><link
         rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?start-index=26&amp;max-results=25&amp;client=youtube_it'/><link
         rel='service' type='application/atomsvc+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?alt=atom-service'/><link
         rel='previous' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists?start-index=1&amp;max-results=25&amp;client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><generator
-        version='2.1' uri='http://gdata.youtube.com'>YouTube data API</generator><openSearch:totalResults>38</openSearch:totalResults><openSearch:startIndex>26</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><entry
-        gd:etag='W/&quot;AkIAQH47eCp7I2A9WhBQGU0.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL9B2248AC7641A3A9</id><published>2012-03-29T17:42:26.000Z</published><updated>2013-03-21T23:29:01.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Soccer</title><summary/><content
-        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL9B2248AC7641A3A9'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL9B2248AC7641A3A9'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL9B2248AC7641A3A9?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>58</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/MSTSh5HUK7w/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/MSTSh5HUK7w/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/MSTSh5HUK7w/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL9B2248AC7641A3A9</yt:playlistId></entry><entry
-        gd:etag='W/&quot;CE4ERn47eCp7I2A9WhBbFk4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL4460A111BD749236</id><published>2012-03-28T20:40:44.000Z</published><updated>2013-05-15T15:48:27.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>NBA</title><summary/><content
-        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL4460A111BD749236'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL4460A111BD749236'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL4460A111BD749236?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>405</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/DAfv_4CA9KI/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/DAfv_4CA9KI/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/DAfv_4CA9KI/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL4460A111BD749236</yt:playlistId></entry><entry
-        gd:etag='W/&quot;DUANQH47eCp7I2A9WhNbEE8.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL1D040FC69E50C32C</id><published>2012-03-28T20:40:11.000Z</published><updated>2013-01-12T21:56:31.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>NHL</title><summary/><content
-        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL1D040FC69E50C32C'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL1D040FC69E50C32C'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL1D040FC69E50C32C?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>18</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/AYQXWysSakE/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/AYQXWysSakE/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/AYQXWysSakE/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL1D040FC69E50C32C</yt:playlistId></entry><entry
-        gd:etag='W/&quot;D0ENRX47eCp7I2A9WhBTEUo.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL3FF4E82DBEA5AD7E</id><published>2012-03-28T20:39:48.000Z</published><updated>2013-02-06T18:34:54.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>College
-        Football</title><summary/><content type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL3FF4E82DBEA5AD7E'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL3FF4E82DBEA5AD7E'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL3FF4E82DBEA5AD7E?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>250</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/UlHevZcqngQ/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/UlHevZcqngQ/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/UlHevZcqngQ/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL3FF4E82DBEA5AD7E</yt:playlistId></entry><entry
-        gd:etag='W/&quot;C0EARX47eCp7I2A9WhBSGE4.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL6969C40420638137</id><published>2012-03-28T20:39:31.000Z</published><updated>2013-02-25T22:34:04.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>MLB</title><summary/><content
-        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL6969C40420638137'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL6969C40420638137'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL6969C40420638137?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>51</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/s98_lhcEz98/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/s98_lhcEz98/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/s98_lhcEz98/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL6969C40420638137</yt:playlistId></entry><entry
-        gd:etag='W/&quot;AkEAR347eCp7I2A9WhBbEE8.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL88E6B4E121781B75</id><published>2012-03-28T20:39:05.000Z</published><updated>2013-05-08T15:57:26.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>NFL</title><summary/><content
-        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PL88E6B4E121781B75'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL88E6B4E121781B75'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL88E6B4E121781B75?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>621</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/YUpr2YG9mJY/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/YUpr2YG9mJY/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/YUpr2YG9mJY/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL88E6B4E121781B75</yt:playlistId></entry><entry
-        gd:etag='W/&quot;CU4BRn47eCp7I2A9WhJWF0k.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLBF9E1014A00B0612</id><published>2012-03-26T21:08:45.000Z</published><updated>2012-08-23T17:45:57.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Matt
-        and Dan - Funny videos about sports</title><summary>When they're not preoccupied
-        with covering your daily sports news in The Floor or doing any of their other
-        hosting/analyst duties, this is where you can find the maniacal minds of Matt
-        Ufford and Dan Rubenstein keeping themselves -- and you -- amused! (With a
-        few selected hits from their more informative efforts)</summary><content type='application/atom+xml;type=feed'
-        src='http://gdata.youtube.com/feeds/api/playlists/PLBF9E1014A00B0612'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLBF9E1014A00B0612'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLBF9E1014A00B0612?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>66</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/Gowbkv9cSTg/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/Gowbkv9cSTg/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/Gowbkv9cSTg/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLBF9E1014A00B0612</yt:playlistId></entry><entry
-        gd:etag='W/&quot;CkUCQn47eCp7I2A9WhBTEEQ.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLD0C468B51416F555</id><published>2012-03-19T17:37:47.000Z</published><updated>2013-02-05T18:51:03.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Featured
-        - Watch these first!</title><summary>The best videos from the SB Nation network,
-        updated every hour! A mix of original shows, news, comedy, and team experts
-        delivered direct to your brain via the Internet!</summary><content type='application/atom+xml;type=feed'
-        src='http://gdata.youtube.com/feeds/api/playlists/PLD0C468B51416F555'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLD0C468B51416F555'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLD0C468B51416F555?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>153</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/9hL79ZP2s9Y/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/9hL79ZP2s9Y/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/9hL79ZP2s9Y/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLD0C468B51416F555</yt:playlistId></entry><entry
-        gd:etag='W/&quot;DU8FRH47eCp7I2A9WhJWEEk.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PLEA73B2A757FE0970</id><published>2012-03-01T20:10:16.000Z</published><updated>2012-08-15T16:23:35.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Original
-        Shows - Shows from our studio</title><summary>Watch all of our hilarious original
-        sports shows here, including Bomani &amp; Jones, Shutdown Fullback, The Full
-        Nelson, The SB Nation Show, and the Petey and Lomo Show!</summary><content
-        type='application/atom+xml;type=feed' src='http://gdata.youtube.com/feeds/api/playlists/PLEA73B2A757FE0970'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PLEA73B2A757FE0970'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PLEA73B2A757FE0970?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>76</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/9hL79ZP2s9Y/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/9hL79ZP2s9Y/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/9hL79ZP2s9Y/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PLEA73B2A757FE0970</yt:playlistId></entry><entry
-        gd:etag='W/&quot;DkUCRn47eCp7I2A9WhJRFE8.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL91827B2BDDDF4CC0</id><published>2012-03-01T01:45:26.000Z</published><updated>2012-07-16T07:37:47.000Z</updated><category
-        scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>The
-        Petey &amp; LoMo Show - Big-leaguers living together</title><summary>Meet
-        Petey &amp; LoMo; two big leaguers with a common goal: dominating boredom
-        when away from the field during spring training.\r\n\r\nWatch new episodes
-        on Tuesdays and Thursdays!</summary><content type='application/atom+xml;type=feed'
-        src='http://gdata.youtube.com/feeds/api/playlists/PL91827B2BDDDF4CC0'/><link
-        rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation?client=youtube_it'/><link
-        rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL91827B2BDDDF4CC0'/><link
-        rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL91827B2BDDDF4CC0?client=youtube_it'/><author><name>SB
-        Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>8</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/vLeuMvs3R1s/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/vLeuMvs3R1s/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/vLeuMvs3R1s/hqdefault.jpg'
-        height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL91827B2BDDDF4CC0</yt:playlistId></entry><entry
-        gd:etag='W/&quot;CE4NQH47eCp7I2A9WhBTGU0.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL2E1DC547453E4E9B</id><published>2012-02-27T20:34:36.000Z</published><updated>2013-02-15T04:36:31.000Z</updated><category
+        version='2.1' uri='http://gdata.youtube.com'>YouTube data API</generator><openSearch:totalResults>28</openSearch:totalResults><openSearch:startIndex>26</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><entry
+        gd:etag='W/&quot;D0QNR347eCp7I2A9XRZTFUs.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL2E1DC547453E4E9B</id><published>2012-02-27T20:34:36.000Z</published><updated>2014-05-20T05:56:36.000Z</updated><category
         scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Bomani
         &amp; Jones - Sports satire from Bomani Jones</title><summary>You like sports
         but you loathe sports talk. You like watching the games, but you find who's
@@ -678,11 +553,11 @@ http_interactions:
         rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL2E1DC547453E4E9B'/><link
         rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL2E1DC547453E4E9B?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>59</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/t64guZrv_d8/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/t64guZrv_d8/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/t64guZrv_d8/hqdefault.jpg'
+        url='https://i.ytimg.com/vi/t64guZrv_d8/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/t64guZrv_d8/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/t64guZrv_d8/hqdefault.jpg'
         height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL2E1DC547453E4E9B</yt:playlistId></entry><entry
-        gd:etag='W/&quot;CkYGSX47eCp7I2A9WhNWE0k.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL54704AA6ABFE355D</id><published>2012-02-27T20:29:27.000Z</published><updated>2012-12-12T19:22:08.000Z</updated><category
+        gd:etag='W/&quot;AkIMRn47eCp7I2A9WhFXFkw.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL54704AA6ABFE355D</id><published>2012-02-27T20:29:27.000Z</published><updated>2013-07-23T22:29:47.000Z</updated><category
         scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Shutdown
         Fullback - The world's only college football show</title><summary>Shutdown
         Fullback is four quarters of punishing truth about the sport of college football
@@ -696,11 +571,11 @@ http_interactions:
         rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL54704AA6ABFE355D'/><link
         rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL54704AA6ABFE355D?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>112</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/YGO2lmc5ZLI/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/YGO2lmc5ZLI/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/YGO2lmc5ZLI/hqdefault.jpg'
+        url='https://i.ytimg.com/vi/YGO2lmc5ZLI/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/YGO2lmc5ZLI/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/YGO2lmc5ZLI/hqdefault.jpg'
         height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL54704AA6ABFE355D</yt:playlistId></entry><entry
-        gd:etag='W/&quot;A04DQH47eCp7I2A9WhBTE04.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL59F5BADED88F6CE4</id><published>2012-02-27T19:40:10.000Z</published><updated>2013-02-08T16:12:51.000Z</updated><category
+        gd:etag='W/&quot;D0YFQH47eCp7I2A9Wh9bEE8.&quot;'><id>tag:youtube.com,2008:user:sbnation:playlist:PL59F5BADED88F6CE4</id><published>2012-02-27T19:40:10.000Z</published><updated>2014-04-20T20:18:31.000Z</updated><category
         scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlistLink'/><title>Full
         Nelson with Amy K. Nelson - Athletes, Access, Culture</title><summary>Full
         Nelson, Amy K. Nelson's feature SB Nation series, strives to tell the most
@@ -710,10 +585,10 @@ http_interactions:
         rel='alternate' type='text/html' href='http://www.youtube.com/playlist?list=PL59F5BADED88F6CE4'/><link
         rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/sbnation/playlists/PL59F5BADED88F6CE4?client=youtube_it'/><author><name>SB
         Nation</name><uri>http://gdata.youtube.com/feeds/api/users/sbnation</uri><yt:userId>DRmGMSgrtZkOsh_NQl4_xw</yt:userId></author><yt:countHint>19</yt:countHint><media:group><media:thumbnail
-        url='http://i.ytimg.com/vi/r7RwnIMhIpU/default.jpg' height='90' width='120'
-        yt:name='default'/><media:thumbnail url='http://i.ytimg.com/vi/r7RwnIMhIpU/mqdefault.jpg'
-        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='http://i.ytimg.com/vi/r7RwnIMhIpU/hqdefault.jpg'
+        url='https://i.ytimg.com/vi/r7RwnIMhIpU/default.jpg' height='90' width='120'
+        yt:name='default'/><media:thumbnail url='https://i.ytimg.com/vi/r7RwnIMhIpU/mqdefault.jpg'
+        height='180' width='320' yt:name='mqdefault'/><media:thumbnail url='https://i.ytimg.com/vi/r7RwnIMhIpU/hqdefault.jpg'
         height='360' width='480' yt:name='hqdefault'/><yt:duration seconds='0'/></media:group><yt:playlistId>PL59F5BADED88F6CE4</yt:playlistId></entry></feed>"
     http_version: 
-  recorded_at: Thu, 27 Jun 2013 22:59:27 GMT
+  recorded_at: Sun, 16 Nov 2014 10:39:10 GMT
 recorded_with: VCR 2.5.0

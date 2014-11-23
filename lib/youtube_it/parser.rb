@@ -62,7 +62,7 @@ class YouTubeIt
             :title        => remove_bom(entry.at("title").text),
             :updated      => entry.at("updated").text,
             :url          => entry.at("id").text,
-            :reply_count  => entry.at("replyCount").text,
+            :reply_count  => entry.at("yt|replyCount").text,
             :channel_id   => (entry.at("yt|channelId").text rescue nil),
             :gp_user_id   => (entry.at("yt|googlePlusUserId").text rescue nil)
           )
